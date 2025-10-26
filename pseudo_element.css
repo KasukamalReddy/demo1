@@ -1,0 +1,13 @@
+p::first-line{
+    color: gold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1::before{
+    content: "Hello";
+}
+h1::after{
+    content: "All";
+}
+p::selection{
+    background-color: cadetblue;
+}

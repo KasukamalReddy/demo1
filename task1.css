@@ -1,0 +1,23 @@
+.container{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-image: url(./assests/messi-world-cup.jpg);
+    background-position: center;
+    background-size:cover ;
+    
+   
+    
+}
+.text{
+    color: white;
+    font-size: 100px;
+    color: gold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    display: none;
+}
+.container:hover>.text{
+    display: block;
+}

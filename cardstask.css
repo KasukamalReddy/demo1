@@ -1,0 +1,56 @@
+.main{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+.card1{
+    height: 100%;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+    
+    
+}
+.card2{
+    height: 100%;
+    width: 300px;
+    border-radius: 20px;
+     border: 2px solid black;
+     overflow: hidden;
+      
+     
+}
+.card3{
+    height: 100%;
+    width: 300px;
+    border-radius: 20px;
+     border: 2px solid black;
+     overflow: hidden;
+      
+     
+}
+img{
+    height:50%;
+    width: 100%;
+    margin-bottom: 0px;
+}
+p{
+    margin: 0px;
+}
+h1{
+    margin: 0px;
+}
+button{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.details{
+    padding: 10px;
+}
